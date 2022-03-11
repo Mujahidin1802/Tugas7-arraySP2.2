@@ -33,7 +33,7 @@ var letakMedian = (nilaiSantri.length + 1) / 2;
 
 document.write("Nilai sorted = ", angkaSorted.join(" , "), "<br>");
 document.write("Letak Median = ke - " + letakMedian + "<br>");
-document.write("Median = 8 <br><br>");
+document.write("Median = " + angkaSorted[5] + "<br><br>");
 // ///
 // function cariMedian() {
 // nilaiSantri.sort(function (a, b) {
